@@ -151,7 +151,7 @@ int main(void)
 			continue;
 			exec_prog_count += 1;
 		}
-		else if(strstr(prog[i], "mv") != NULL) {
+		else if(strstr(prog[i], "cp") != NULL) {
 			int i = 0;
 			char *ptr = strtok(prog[i], " ");
 			while(ptr != NULL) {
